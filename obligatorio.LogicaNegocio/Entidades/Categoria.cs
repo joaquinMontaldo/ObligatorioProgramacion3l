@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,6 +10,6 @@ namespace Obligatorio.LogicaNegocio.Entidades
 
         public string Nombre { get; set; }
 
-        public List<Historia> Historias { get; set; }
+        public List<Historia> Historias { get; set; } = new();
     }
 }

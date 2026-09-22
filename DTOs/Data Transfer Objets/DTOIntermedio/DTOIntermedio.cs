@@ -1,4 +1,4 @@
-using DTOs.DataTransferObjects.DTOOpcion;
+using OpcionDto = DTOs.DataTransferObjects.DTOOpcion.DTOOpcion;
 
 namespace DTOs.DataTransferObjects.DTOIntermedio
 {
@@ -9,6 +9,6 @@ namespace DTOs.DataTransferObjects.DTOIntermedio
         public string Texto { get; set; } = string.Empty;
         public int? HistoriaId { get; set; }
         public string HistoriaTitulo { get; set; } = string.Empty;
-        public List<DTOOpcion> Opciones { get; set; } = new();
+        public List<OpcionDto> Opciones { get; set; } = new();
     }
 }

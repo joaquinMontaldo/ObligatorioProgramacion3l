@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="DTOs/DTOs.csproj" />
   <Project Path="Obligatorio.LogicaAccesoDatos/Obligatorio.LogicaAccesoDatos.csproj" />
   <Project Path="Obligatorio.LogicaAplicacion/Obligatorio.LogicaAplicacion.csproj" />
   <Project Path="obligatorio.LogicaNegocio/obligatorio.LogicaNegocio.csproj" />

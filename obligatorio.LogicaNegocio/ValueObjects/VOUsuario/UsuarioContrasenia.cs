@@ -6,9 +6,9 @@ namespace Obligatorio.LogicaNegocio.ValueObjects.VOUsuario
     [ComplexType]
     public record UsuarioContrasenia
     {
-        public string Valor { get; init; } = string.Empty;
+        public string Valor { get; private init; } = string.Empty;
 
-        public UsuarioContrasenia()
+        private UsuarioContrasenia()
         {
         }
 
