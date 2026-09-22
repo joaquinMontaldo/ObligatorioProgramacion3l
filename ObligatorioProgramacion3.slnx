@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Obligatorio.LogicaAccesoDatos/Obligatorio.LogicaAccesoDatos.csproj" />
+  <Project Path="Obligatorio.LogicaAplicacion/Obligatorio.LogicaAplicacion.csproj" />
+  <Project Path="obligatorio.LogicaNegocio/obligatorio.LogicaNegocio.csproj" />
+  <Project Path="Obligatorio.WebApp/Obligatorio.WebApp.csproj" />
+</Solution>

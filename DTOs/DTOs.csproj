@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DTOs</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Data Transfer Objets\DTOUsuario\" />
+    <Folder Include="Data Transfer Objets\DTOCategoria\" />
+    <Folder Include="Data Transfer Objets\DTOHistoria\" />
+    <Folder Include="Data Transfer Objets\DTOCapitulo\" />
+    <Folder Include="Data Transfer Objets\DTOIntermedio\" />
+    <Folder Include="Data Transfer Objets\DTOFinal\" />
+    <Folder Include="Data Transfer Objets\DTOOpcion\" />
+    <Folder Include="Data Transfer Objets\DTOLectura\" />
+    <Folder Include="Data Transfer Objets\DTOAuditoria\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\obligatorio.LogicaNegocio\obligatorio.LogicaNegocio.csproj" />
+  </ItemGroup>
+
+</Project>
